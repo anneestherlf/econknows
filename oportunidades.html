@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EconKnows - Oportunidades</title>
+    <link rel="stylesheet" href="assets/css/style-oportunidades.css">
+    <link rel="shortcut icon" href="assets/imgs/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- barra de navegar  -->
+
+    <nav>
+        <div class="logo">
+            <h1><img class="logo-img" src="assets/imgs/logo-econknows.png"></h1>
+        </div>
+        <ul id="menuList">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="conheca-nos.html">Conheça-nos</a></li>
+            <li><a href="oportunidades.html">Oportunidades</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </div>
+    </nav>
+
+
+    <!-- centro  -->
+
+    <div class="main">
+        <img src="assets/imgs/pagina-em-desenvolvimento.png" alt="" srcset="">
+        <button><a href="index.html">Voltar ao Início</a></button>
+    </div>
+
+
+
+    <!-- footer  -->
+    <footer>
+
+        <div class="footer-top">
+            <div class="part1-3">
+                <img src="assets/imgs/logo-econknows.png">
+            </div>
+
+            <div class="part2-3">
+                <a href="index.html">Início</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="conheca-nos.html">Conheça-nos</a>
+                <a href="oportunidades.html">Oportunidades</a>
+                <a href="contato.html">Contato</a>
+            </div>
+
+            <div class="part3-3">
+                <div class="line1">
+                    <a href=""><img class="icon" src="assets/imgs/linkedin.png"></a>
+                    <a href="https://www.instagram.com/econknows/"></a><img class="icon"
+                        src="assets/imgs/instagram.png"></a>
+                </div>
+                <div class="line2">
+                    <a href=""></a><img class="icon" src="assets/imgs/youtube.png"></a>
+                    <a href=""></a><img class="icon" src="assets/imgs/email.png"></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>EconKnows © 2025</p>
+
+        </div>
+
+    </footer>
+
+
+    <script>
+        let menuList = document.getElementById("menuList")
+        menuList.style.maxHeight = "0px";
+
+        function toggleMenu() {
+            if (menuList.style.maxHeight == "0px") {
+                menuList.style.maxHeight = "300px";
+            }
+            else {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+
+    </script>
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EconKnows - Página Inicial</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/imgs/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <h1><img class="logo-img" src="assets/imgs/logo-econknows.png"></h1>
+        </div>
+        <ul id="menuList">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="conheca-nos.html">Conheça-nos</a></li>
+            <li><a href="oportunidades.html">Oportunidades</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </div>
+    </nav>
+
+    <header class="header1">
+        <div class="part1">
+            <img src="assets/imgs/icon-partedecima.png" class="icon-partedecima">
+        </div>
+
+        <div class="part2">
+            <h1> Economia <br>
+                <p class="nunca-foi"> nunca foi </p>
+                <p class="tao-facil"> tão fácil.</p>
+            </h1>
+
+            <p>Democratizamos as ciências <br> econômicas e fomentamos o <br> pensamento crítico</p>
+
+            <button><a href="http://">Conheça a EconKnows</a></button>
+
+        </div>
+
+        <div class="part3">
+
+            <img src="assets/imgs/main-img.png" class="main-img">
+
+        </div>
+
+        <div class="part4">
+            <img src="assets/imgs/icon-partedebaixo.png" class="icon-partedebaixo">
+        </div>
+
+    </header>
+
+    <p class="copyright-freepik">Image by DilokaStudio on <b>Freepik</b></p>
+
+
+    <header class="header2">
+
+        <div class="part1-2">
+            <img src="assets/imgs/img-esquerda.png" class="img-esquerda">
+        </div>
+
+        <div class="part2-2">
+            <div class="titulo">
+                <h1><i>O que é a</i> <b>EconKnows</b>
+                    <i>e o que fazemos?</i>
+                </h1>
+            </div>
+
+            <p>
+                A <b>EconKnows</b> é uma organização sem fins lucrativos, formada por estudantes que almejam uma maior
+                democratização ao acesso dos conteúdos das ciências econômicas para a sociedade brasileira. Visto que
+                muitos brasileiros a consideram como uma ciência complexa, poucos conhecem essa área de estudo e poucos
+                sabem o quanto é de extrema importância ter uma noção desse campo, em meio ao mundo extremamente
+                globalizado e conectado. <br> <br>
+
+                Buscamos capacitar e encorajar os participantes a terem um pensamento crítico sobre uma visão econômica
+                através do incentivo de oportunidades mais igualitárias. <br> <br>
+
+                Visamos ser uma grande referência na área de ciências econômicas por meio da quantidade massiva de
+                contéudos e cursos que disponibilizaremos. <br> <br>
+
+                Pretendemos oferecer uma enorme rede de networking com pessoas de grande renome na área de economia.
+                <br> <br>
+
+                Além disso, incentivamos a diversidade cultural entre os alunos e o aprendizado de uns para com os
+                outros quanto às divergências culturais e socioeconômicas presentes nas regiões brasileiras.
+            </p>
+        </div>
+
+        <div class="part4-2">
+            <img src="assets/imgs/img-direita.png" class="img-direita">
+        </div>
+
+    </header>
+
+    <footer>
+
+        <div class="footer-top">
+            <div class="part1-3">
+                <img src="assets/imgs/logo-econknows.png">
+            </div>
+
+            <div class="part2-3">
+                <a href="index.html">Início</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="conheca-nos.html">Conheça-nos</a>
+                <a href="oportunidades.html">Oportunidades</a>
+                <a href="contato.html">Contato</a>
+            </div>
+
+            <div class="part3-3">
+                <div class="line1">
+                    <a href=""><img class="icon" src="assets/imgs/linkedin.png"></a>
+                    <a href="https://www.instagram.com/econknows/"></a><img class="icon" src="assets/imgs/instagram.png"></a>
+                </div>
+                <div class="line2">
+                    <a href=""></a><img class="icon" src="assets/imgs/youtube.png"></a>
+                    <a href=""></a><img class="icon" src="assets/imgs/email.png"></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>EconKnows © 2025</p>
+
+        </div>
+
+    </footer>
+
+
+    <script>
+        let menuList = document.getElementById("menuList")
+        menuList.style.maxHeight = "0px";
+
+        function toggleMenu() {
+            if (menuList.style.maxHeight == "0px") {
+                menuList.style.maxHeight = "300px";
+            }
+            else {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+
+    </script>
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

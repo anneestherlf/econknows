@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EconKnows - Sobre</title>
+    <link rel="stylesheet" href="assets/css/style-sobre.css">
+    <link rel="shortcut icon" href="assets/imgs/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- barra de navegar  -->
+
+    <nav>
+        <div class="logo">
+            <h1><img class="logo-img" src="assets/imgs/logo-econknows.png"></h1>
+        </div>
+        <ul id="menuList">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="conheca-nos.html">Conheça-nos</a></li>
+            <li><a href="oportunidades.html">Oportunidades</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </div>
+    </nav>
+
+
+    <!-- centro -->
+
+    <h1 class="h1-centro">A base da <p class="destaque-centro">EconKnows</p> é estruturada em três aspectos:</h1>
+
+    <div class="valores">
+
+        <img class="img-valores" src="assets/imgs/valores.png" alt="" srcset="">
+
+        <div class="cards-valores">
+            <img class="democratizacao" src="assets/imgs/democratizacao.png" alt="" srcset="">
+
+            <img class="imparcialidade" src="assets/imgs/imparcialidade.png" alt="" srcset="">
+
+            <img class="comprometimento" src="assets/imgs/comprometimento.png" alt="" srcset="">
+        </div>
+
+        <div class="texto-valores">
+            <p>Esses alicerces fornecem o sentido da EconKnows como organização e a partir dos mesmos, conseguimos nos
+                capacitar para oferecer bons conteúdos e diversas oportunidades para o público brasileiro.</p>
+
+        </div>
+
+    </div>
+
+    <div class="missao">
+
+        <img src="assets/imgs/missao.png" alt="" class="img-valores">
+
+        <div class="missao-centro">
+            <img class="img-centro" src="assets/imgs/alvo.png" alt="" srcset="">
+            <p>Temos como missão e propósito: Democratizar ainda mais o mundo de economia para mais brasileiros;
+                conscientizá-los ainda mais sobre a importância da economia atualmente; exercitá-los ainda mais com
+                o pensamento crítico e proporcioná-los diversas oportunidades com intuito de angariar novas
+                habilidades, ampliar o conhecimento da área e conquistas um ótimo networking.</p>
+        </div>
+    </div>
+
+    <div class="visao">
+        <img src="assets/imgs/visao.png" alt="" class="img-valores">
+
+        <div class="missao-centro">
+            <img src="assets/imgs/visao 1.png" alt="" class="img-centro">
+            <p>Aspiramos ser referência na área de ciências econômicas, almejando assim melhorias constantes, no
+                que diz respeito, aos conteúdos, cursos e oportunidades ofertadas por nós. Pois, só dessa forma,
+                iremos cumprir com o nosso real objetivo: Maior democratização no campo econômico.</p>
+        </div>
+
+
+    </div>
+
+
+
+
+    <!-- footer  -->
+    <footer>
+
+        <div class="footer-top">
+            <div class="part1-3">
+                <img src="assets/imgs/logo-econknows.png">
+            </div>
+
+            <div class="part2-3">
+                <a href="index.html">Início</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="conheca-nos.html">Conheça-nos</a>
+                <a href="oportunidades.html">Oportunidades</a>
+                <a href="contato.html">Contato</a>
+            </div>
+
+            <div class="part3-3">
+                <div class="line1">
+                    <a href=""><img class="icon" src="assets/imgs/linkedin.png"></a>
+                    <a href="https://www.instagram.com/econknows/"></a><img class="icon"
+                        src="assets/imgs/instagram.png"></a>
+                </div>
+                <div class="line2">
+                    <a href=""></a><img class="icon" src="assets/imgs/youtube.png"></a>
+                    <a href=""></a><img class="icon" src="assets/imgs/email.png"></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>EconKnows © 2025</p>
+
+        </div>
+
+    </footer>
+
+
+    <script>
+        let menuList = document.getElementById("menuList")
+        menuList.style.maxHeight = "0px";
+
+        function toggleMenu() {
+            if (menuList.style.maxHeight == "0px") {
+                menuList.style.maxHeight = "300px";
+            }
+            else {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+
+    </script>
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
